@@ -1,0 +1,161 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "雪绒旅馆 - 首页";
+}
+
+<div class="min-h-screen bg-gray-50">
+
+    <div class="relative pt-16">
+        <div class="absolute inset-0">
+            <img
+                src="/pic/111.png"
+                alt="雪绒旅馆雪景"
+                class="w-full h-full object-cover brightness-50">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/75"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 bg-clip-text text-transparent drop-shadow-[0_5px_12px_rgba(0,0,0,0.7)]">
+                雪绒旅馆
+            </h1>
+            <p class="mt-6 text-xl md:text-3xl font-medium bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 bg-clip-text text-transparent drop-shadow-[0_4px_10px_rgba(0,0,0,0.7)]">
+                在雪山脚下，寻找属于你的静谧时光
+            </p>
+        </div>
+    </div>
+
+    <!-- 精选房型（新增） -->
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+                精选房型
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                每间客房都以雪山为伴，融合自然与奢华，让您沉浸在极致的宁静之中
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- 房型 1 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="雪景套房" class="w-full h-56 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">雪景温泉套房</h3>
+                        <p class="text-gray-600 mb-4">落地窗直面雪山，私人恒温温泉浴缸，180° 全景视野</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-pink-600">¥1,880</span>
+                            <a href="/RoomSearch" class="text-pink-600 hover:text-pink-800 font-medium">查看详情 →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 房型 2 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="豪华双床房" class="w-full h-56 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">豪华双床房</h3>
+                        <p class="text-gray-600 mb-4">两张进口席梦思大床，适合家庭或好友同行</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-pink-600">¥1,280</span>
+                            <a href="/RoomSearch" class="text-pink-600 hover:text-pink-800 font-medium">查看详情 →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 房型 3 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+                    <img src="data:image/jpeg;base64,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" alt="山景大床房" class="w-full h-56 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">山景大床房</h3>
+                        <p class="text-gray-600 mb-4">超大落地窗，国王尺寸大床，私密浪漫空间</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-pink-600">¥1,580</span>
+                            <a href="/RoomSearch" class="text-pink-600 hover:text-pink-800 font-medium">查看详情 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 为什么选择我们（原内容保留 + 微调） -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                为什么选择雪绒旅馆
+            </h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="text-center px-6">
+                    <div class="text-6xl mb-4">❄️</div>
+                    <h3 class="text-xl font-semibold mb-3">纯净雪景</h3>
+                    <p class="text-gray-600">落地窗正对雪山，四季皆美</p>
+                </div>
+                <div class="text-center px-6">
+                    <div class="text-6xl mb-4">🛏️</div>
+                    <h3 class="text-xl font-semibold mb-3">舒适客房</h3>
+                    <p class="text-gray-600">进口床品 + 恒温温泉浴缸</p>
+                </div>
+                <div class="text-center px-6">
+                    <div class="text-6xl mb-4">🌿</div>
+                    <h3 class="text-xl font-semibold mb-3">私密宁静</h3>
+                    <p class="text-gray-600">远离市区，专属雪山秘境</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 客户心声（新增） -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                客人的心声
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-3xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        “第一次来雪山住，房间的温泉和窗外雪景太治愈了！服务员态度超好，下次还来！”
+                    </p>
+                    <p class="text-right font-medium text-gray-800">— 小雪，2025.12</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-3xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        “床品真的太舒服了，睡了一觉像重生。强烈推荐给想逃离城市的人！”
+                    </p>
+                    <p class="text-right font-medium text-gray-800">— 阿明，2026.01</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-3xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        “私密度满分，安静到只听到雪落的声音。早餐也很精致，完美假期！”
+                    </p>
+                    <p class="text-right font-medium text-gray-800">— 薇薇，2026.02</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg">雪绒旅馆 © 2026 - 所有权利保留</p>
+            <p class="mt-2 text-gray-400">
+                <a href="/Privacy" class="hover:text-white transition">隐私政策</a> | 
+                <a href="#" class="hover:text-white transition">使用条款</a> | 
+                <a href="mailto:contact@snowvel.com" class="hover:text-white transition">联系我们</a>
+            </p>
+        </div>
+    </footer>
+
+</div>

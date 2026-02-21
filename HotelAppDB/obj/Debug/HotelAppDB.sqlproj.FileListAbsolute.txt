@@ -1,0 +1,10 @@
+D:\Github\C#\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.dacpac
+D:\Github\C#\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.dll
+D:\Github\C#\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.pdb
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.sqlproj.AssemblyReference.cache
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\Model.xml
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\refactor.xml
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\postdeploy.sql
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\predeploy.sql
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.dll
+D:\Github\C#\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.pdb

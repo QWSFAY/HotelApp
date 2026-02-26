@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotalApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c22bc6edc5b612aeeb8dd24429538fe4d6d47735")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotalApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotalApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

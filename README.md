@@ -23,8 +23,8 @@
 - **数据规范化**：通过数据库项目统一管理数据表结构、脚本及配置，保障数据存储的规范性与可维护性。
 
 运行界面：
-
-![1]([D:\Github\C#\HotelApp\pic\1.png](https://github.com/QWSFAY/HotelApp/blob/main/pic/1.png)
+ ![]([https://github.com/QWSFAY/Qt_Mysql_practice/blob/main/img/1.png?raw=true)
+![1](https://github.com/QWSFAY/HotelApp/blob/main/pic/1.png?raw=true)
 
 ![2](D:\Github\C#\HotelApp\pic\2.png)
 

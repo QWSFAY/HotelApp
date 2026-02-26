@@ -4,7 +4,7 @@
 
 #### 技术栈与架构设计
 
-- **整体架构**：采用分层设计思想，拆分为桌面端（HotelApp.Desktop）、数据库层（HotelAppDB）、核心业务类库（HotelAppLibrary）及 Web 端（HotalApp.Web）四大模块，实现业务逻辑与界面、数据层解耦；
+- **整体架构**：采用分层设计思想，拆分为桌面端（HotelApp.Desktop）、数据库层（HotelAppDB）、核心业务类库（HotelAppLibrary）及 Web 端（HotalApp.Web）四大模块，实现业务逻辑与界面；
 - **桌面端开发**：基于 WPF（XAML + C#）构建可视化交互界面，包含主窗口（MainWindow）、入住登记表单（CheckInForm）等核心页面，通过 App.xaml 完成应用程序生命周期管理，结合 appsettings.json 实现配置化管理；
 - **数据层设计**：基于 SQL Server 项目（HotelAppDB.sqlproj）搭建数据库模型（HotelAppDB.dbmdl），包含 dbo 核心数据表、Scripts 脚本目录及 Public Profiles 配置，保障酒店入住数据的存储、查询与管理；
 - **核心类库**：HotelAppLibrary 封装通用业务逻辑（如入住信息校验、数据映射等），为桌面端和 Web 端提供统一的业务支撑；

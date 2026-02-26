@@ -24,7 +24,7 @@
 
 运行界面：
 
-![1](D:\Github\C#\HotelApp\pic\1.png)
+![1]([D:\Github\C#\HotelApp\pic\1.png](https://github.com/QWSFAY/HotelApp/blob/main/pic/1.png)
 
 ![2](D:\Github\C#\HotelApp\pic\2.png)
 
